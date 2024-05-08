@@ -7,7 +7,7 @@ import Components from './components/Components';
 export default function Home() {
 
   return (
-    <main className="flex flex-col min-h-screen m-4 mt-0">
+    <main className="flex flex-col min-h-screen m-4 mt-0 ">
       <div className="bg-gradient-to-r bg-green-700 p-4 mx-6 rounded-lg shadow-lg">
         <div className="flex items-center justify-center">
           <Image

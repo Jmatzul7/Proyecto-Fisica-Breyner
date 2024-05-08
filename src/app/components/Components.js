@@ -5,7 +5,7 @@ import Image from 'next/image';
 import axios from 'axios';
 
 export default function Components() {
-    const url = "http://localhost:5000/resolve"
+  const url = "http://localhost:5000/resolve"
   const [problem, setProblem] = useState(null);
   const [serverResponse, setServerResponse] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -48,7 +48,7 @@ export default function Components() {
 
   return (
     <main className="flex flex-col justify-center items-center">
-      <div className="Flex mx-2 w-1/2 ">
+      <div className="Flex mx-2 md:w-1/2 w-full">
         <div className="bg-gradient-to-right mt-4 bg-green-700 p-6 rounded-lg shadow-lg">
           <h1 className="text-2xl text-white font-semibold mb-4">Escribe tu problema de física</h1>
         </div>
@@ -68,7 +68,7 @@ export default function Components() {
         </div>
       </div>
 
-        <div className="Flex mx-2 w-1/2">
+        <div className="Flex mx-2 md:w-1/2 w-full">
           <div className="bg-gradient-to-right mt-4 bg-green-700 p-6 rounded-lg shadow-lg">
             <h1 className="text-2xl font-semibold text-white">Aquí aparecerá su respuesta !!!
             </h1>
