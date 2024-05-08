@@ -5,7 +5,8 @@ import Image from 'next/image';
 import axios from 'axios';
 
 export default function Components() {
-  const url = "http://localhost:5000/resolve"
+  const url1 = "http://localhost:5000/resolve"
+  const url = "https://proyecto-breyner-fisica-c35ba74a286e.herokuapp.com/"
   const [problem, setProblem] = useState(null);
   const [serverResponse, setServerResponse] = useState(null);
   const [loading, setLoading] = useState(false);
